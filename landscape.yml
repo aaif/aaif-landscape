@@ -101,6 +101,12 @@ categories:
             logo: ericsson-ab.svg
             crunchbase: https://www.crunchbase.com/organization/ericsson
           - item:
+            name: Huawei
+            homepage_url: https://www.huaweicloud.com/intl/en-us
+            logo: huawei.svg
+            twitter: https://twitter.com/Huawei_Cloud
+            crunchbase: https://www.crunchbase.com/organization/huawei
+          - item:
             name: International Business Machines Corporation
             homepage_url: https://www.ibm.com/
             logo: ibm-corporation.svg
