@@ -1,6 +1,6 @@
 # AAIF Agentic AI Landscape
 
-The [AAIF](https://aaif.io) Agentic AI [Landscape](https://landscape.aaif.io) is intended to provided a view into the overall agentic AI landscape including AAIF mebmers and projects. We categorize many of the most promenant open source software and open standards projects in agentic AI. 
+The [AAIF](https://aaif.io) Agentic AI [Landscape](https://landscape.aaif.io) is intended to provided a view into the overall agentic AI landscape including AAIF mebmers and projects. We categorize many of the most promenant open source software and open standards projects in agentic AI.
 
 This repository contains the data files and images required to generate the [AAIF landscape](https://landscape.aaif.io). The software that generates it can be found at the [cncf/landscape2](https://github.com/cncf/landscape2) repository. Please see its [README file](https://github.com/cncf/landscape2#landscape2) for more information about how it works.
 
@@ -12,7 +12,7 @@ Before submitting a new entry it is important to review the following guidelines
 
 * Open source projects with at least 1000 GitHub stars that clearly fit in an existing category are generally included. Put the project in the single category where it best fits.
 * We generally will only list an organizations project in one box, to represent its major or best-known offering. We occasionally make exceptions for large companies. Note that if we allowed listing the same product or project in multiple boxes.
-* We are generally not including commercial versions of open source software. 
+* We are generally not including commercial versions of open source software.
 * We do not include closed source products and services or proprietary standards.  Closed soure products that implement open source solultions are also not included.
 * Crunchbase organization should be the company or organization that controls the software. That is normally the owner of the trademark, whether or not a trademark has been formally filed.
 * Your project or company needs a logo in SVG format:
@@ -35,6 +35,6 @@ If you find an error in the landscape, please open a pull request with the sugge
 
 The generated landscape contains data received from [Crunchbase](http://www.crunchbase.com). This data is not licensed pursuant to the Apache License. It is subject to Crunchbase’s Data Access Terms, available at [https://data.crunchbase.com/docs/terms](https://data.crunchbase.com/docs/terms), and is only permitted to be used with Linux Foundation landscape projects.
 
-## License
+## Support
 
 Any questions can be directed to our support team at [support@aaif.io](mailto:support@aaif.io)
