@@ -517,7 +517,7 @@ categories:
           - item:
             name: Kilo
             homepage_url: https://kilo.ai/
-            logo: kilo.svg
+            logo: kilo.png
             crunchbase: https://www.crunchbase.com/organization/kilo
           - item:
             name: Kite AI
@@ -658,7 +658,7 @@ categories:
           - item:
             name: Prefect
             homepage_url: https://www.prefect.io/
-            logo: prefect.svg
+            logo: prefect.png
           - item:
             name: Pydantic
             homepage_url: https://pydantic.dev/
@@ -860,25 +860,716 @@ categories:
             homepage_url: https://www.psu.edu/
             logo: pennsylvania-state-university.svg
             crunchbase: https://www.crunchbase.com/organization/the-pennsylvania-state-university
-  - name: Projects
+  - name: Foundations & Protocols
     subcategories:
-      - name: AAIF Projects
+      - name: Protocols & Standards
         items:
           - item:
-            name: Model Context Protocol
-            description: An open protocol that enables seamless integration between LLM applications and external data sources and tools.
-            homepage_url: https://modelcontextprotocol.io/
+            name: Model Context Protocol (MCP)
+            homepage_url: https://modelcontextprotocol.io/docs/getting-started/intro
             logo: model-context-protocol.png
             repo_url: https://github.com/modelcontextprotocol/modelcontextprotocol
+            description: "MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems."
+            project: member
           - item:
-            name: goose
-            description: An open source, extensible AI agent that goes beyond code suggestions. Install, execute, edit, and test with any LLM.
-            homepage_url: https://block.github.io/goose/
-            logo: goose.png
-            repo_url: https://github.com/block/goose
+            name: Agent2Agent (A2A) Protocol
+            homepage_url: https://github.com/a2aproject/A2A
+            logo: agent2agent-protocol.png
+            repo_url: https://github.com/a2aproject/A2A
+            description: "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications."
           - item:
             name: AGENTS.md
-            description: A dedicated, predictable place to provide the context and instructions to help AI coding agents work on your project.
             homepage_url: https://agents.md/
             logo: agents-md.png
             repo_url: https://github.com/agentsmd/agents.md
+            description: "A simple, open format for guiding coding agents."
+            project: member
+          - item:
+            name: AGNTCY
+            homepage_url: https://github.com/agntcy/acp-spec
+            logo: agntcy.png
+            repo_url: https://github.com/agntcy/acp-spec
+            description: ""
+          - item:
+            name: OpenTelemetry AI Semantic Conventions
+            homepage_url: https://github.com/open-telemetry/semantic-conventions
+            logo: opentelemetry-ai-semantic-conventions.png
+            repo_url: https://github.com/open-telemetry/semantic-conventions
+            description: "Defines standards for generating consistent, accessible telemetry across a variety of domains"
+          - item:
+            name: OpenAPI Specification
+            homepage_url: https://github.com/OAI/OpenAPI-Specification
+            logo: openapi-specification.png
+            repo_url: https://github.com/OAI/OpenAPI-Specification
+            description: ""
+          - item:
+            name: W3C Decentralized Identifier Specification
+            homepage_url: https://github.com/w3c/did
+            logo: w3c-decentralized-identifier-specification.png
+            repo_url: https://github.com/w3c/did
+            description: ""
+          - item:
+            name: SLIM
+            homepage_url: https://github.com/agntcy/slim
+            logo: slim.png
+            repo_url: https://github.com/agntcy/slim
+            description: "A next-generation communication framework that provides the secure, scalable transport layer for AI agent protocols."
+          - item:
+            name: Open Agent Schema Framework (OASF)
+            homepage_url: https://github.com/agntcy/oasf
+            logo: open-agent-schema-framework-oasf.png
+            repo_url: https://github.com/agntcy/oasf
+            description: "A a standardized schema system for defining and managing AI agent capabilities, interactions, and metadata."
+          - item:
+            name: A2UI
+            homepage_url: https://github.com/google/a2ui
+            logo: a2ui.png
+            repo_url: https://github.com/google/a2ui
+            description: ""
+          - item:
+            name: Agentic Commerce Protocol (ACP)
+            homepage_url: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol
+            logo: agentic-commerce-protocol-acp.png
+            repo_url: https://github.com/agentic-commerce-protocol/agentic-commerce-protocol
+            description: "The Agentic Commerce Protocol (ACP) is an interaction model and open standard for connecting buyers, their AI agents, and businesses to complete purchases seamlessly. The specification is currently maintained by OpenAI and Stripe."
+          - item:
+            name: Universal Commerce Protocol (UCP)
+            homepage_url: https://github.com/Universal-Commerce-Protocol/ucp
+            logo: universal-commerce-protocol-ucp.png
+            repo_url: https://github.com/Universal-Commerce-Protocol/ucp
+            description: ""
+          - item:
+            name: Agent Payments Protocol (AP2)
+            homepage_url: https://github.com/google-agentic-commerce/AP2
+            logo: agent-payments-protocol-ap2.png
+            repo_url: https://github.com/google-agentic-commerce/AP2
+            description: ""
+          - item:
+            name: Machine Payments Protocol (MPP)
+            homepage_url: https://github.com/tempoxyz/mpp
+            logo: machine-payments-protocol-mpp.png
+            repo_url: https://github.com/tempoxyz/mpp
+            description: ""
+          - item:
+            name: Open Plugins Specification
+            homepage_url: https://github.com/vercel-labs/open-plugin-spec
+            logo: open-plugins-specification.png
+            repo_url: https://github.com/vercel-labs/open-plugin-spec
+            description: "Open Plugin Specification v1.0.0 — A minimal standard for packaging agent extensions into distributable plugins"
+          - item:
+            name: Open Responses 
+            homepage_url: https://github.com/openresponses/openresponses
+            logo: open-responses.svg
+            repo_url: https://github.com/openresponses/openresponses
+            description: ""
+      - name: Agent-Optimized Models
+        items:
+          - item:
+            name: Qwen
+            homepage_url: https://huggingface.co/Qwen
+            logo: qwen.svg
+            repo_url: https://huggingface.co/Qwen
+            description: ""
+          - item:
+            name: DeepSeek-R1
+            homepage_url: https://huggingface.co/collections/deepseek-ai/deepseek-r1
+            logo: deepseek-r1.svg
+            repo_url: https://huggingface.co/collections/deepseek-ai/deepseek-r1
+            description: ""
+          - item:
+            name: DeepSeek-V3.2
+            homepage_url: https://huggingface.co/collections/deepseek-ai/deepseek-v32
+            logo: deepseek-v3-2.svg
+            repo_url: https://huggingface.co/collections/deepseek-ai/deepseek-v32
+            description: ""
+          - item:
+            name: xLAM
+            homepage_url: https://huggingface.co/collections/Salesforce/xlam-models
+            logo: xlam.svg
+            repo_url: https://huggingface.co/collections/Salesforce/xlam-models
+            description: ""
+          - item:
+            name: Gorilla
+            homepage_url: https://github.com/ShishirPatil/gorilla
+            logo: gorilla.png
+            repo_url: https://github.com/ShishirPatil/gorilla
+            description: "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)"
+          - item:
+            name: Mistral Inference Library
+            homepage_url: https://github.com/mistralai/mistral-inference
+            logo: mistral-inference-library.png
+            repo_url: https://github.com/mistralai/mistral-inference
+            description: "Official inference library for Mistral models"
+          - item:
+            name: Meta Llama
+            homepage_url: https://huggingface.co/meta-llama
+            logo: meta-llama.svg
+            repo_url: https://huggingface.co/meta-llama
+            description: ""
+          - item:
+            name: Granite
+            homepage_url: https://huggingface.co/ibm-granite
+            logo: granite.svg
+            repo_url: https://huggingface.co/ibm-granite
+            description: ""
+      - name: MCP Infrastructure
+        items:
+          - item:
+            name: MCP Inspector
+            homepage_url: https://github.com/modelcontextprotocol/inspector
+            logo: mcp-inspector.png
+            repo_url: https://github.com/modelcontextprotocol/inspector
+            description: "Visual testing tool for MCP servers"
+          - item:
+            name: FastMCP
+            homepage_url: https://github.com/PrefectHQ/fastmcp
+            logo: fastmcp.png
+            repo_url: https://github.com/PrefectHQ/fastmcp
+            description: "The fast, Pythonic way to build MCP servers and clients."
+          - item:
+            name: LiteMCP
+            homepage_url: https://github.com/wong2/litemcp
+            logo: litemcp.png
+            repo_url: https://github.com/wong2/litemcp
+            description: "A TypeScript framework for building MCP servers elegantly"
+          - item:
+            name: IBM MCP Context Forge
+            homepage_url: https://github.com/ibm/mcp-context-forge
+            logo: ibm-mcp-context-forge.png
+            repo_url: https://github.com/ibm/mcp-context-forge
+            description: "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool calling, and supports plugins."
+          - item:
+            name: Unla MCP Gateway
+            homepage_url: https://github.com/AmoyLab/Unla
+            logo: unla-mcp-gateway.png
+            repo_url: https://github.com/AmoyLab/Unla
+            description: "MCP Gateway - A lightweight gateway service that instantly transforms existing MCP Servers and APIs into MCP servers with zero code changes. Features Docker deployment and management UI, requiring no infrastructure modifications."
+  - name: Frameworks & Infrastructure
+    subcategories:
+      - name: Agent Infrastructure
+        items:
+          - item:
+            name: SkyPilot
+            homepage_url: https://github.com/skypilot-org/skypilot
+            logo: skypilot.png
+            repo_url: https://github.com/skypilot-org/skypilot
+            description: "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
+          - item:
+            name: KServe
+            homepage_url: https://github.com/kserve/kserve
+            logo: kserve.png
+            repo_url: https://github.com/kserve/kserve
+            description: "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes"
+          - item:
+            name: Daytona
+            homepage_url: https://github.com/daytonaio/daytona
+            logo: daytona.png
+            repo_url: https://github.com/daytonaio/daytona
+            description: "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code"
+          - item:
+            name: OpenWebUI
+            homepage_url: https://github.com/open-webui/open-webui
+            logo: openwebui.png
+            repo_url: https://github.com/open-webui/open-webui
+            description: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+          - item:
+            name: Jan
+            homepage_url: https://github.com/janhq/jan
+            logo: jan.png
+            repo_url: https://github.com/janhq/jan
+            description: "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer."
+      - name: Orchestration & Multi-Agent
+        items:
+          - item:
+            name: LangGraph
+            homepage_url: https://github.com/langchain-ai/langgraph
+            logo: langgraph.png
+            repo_url: https://github.com/langchain-ai/langgraph
+            description: "Build resilient language agents as graphs."
+          - item:
+            name: LangChain
+            homepage_url: https://github.com/langchain-ai/langchain
+            logo: langchain.png
+            repo_url: https://github.com/langchain-ai/langchain
+            description: "The agent engineering platform"
+          - item:
+            name: CrewAI
+            homepage_url: https://github.com/crewAIInc/crewAI
+            logo: crewai.png
+            repo_url: https://github.com/crewAIInc/crewAI
+            description: "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
+          - item:
+            name: AutoGen
+            homepage_url: https://github.com/microsoft/autogen
+            logo: autogen.png
+            repo_url: https://github.com/microsoft/autogen
+            description: "A programming framework for agentic AI"
+          - item:
+            name: OpenAI Agents SDK
+            homepage_url: https://github.com/openai/openai-agents-python
+            logo: openai-agents-sdk.png
+            repo_url: https://github.com/openai/openai-agents-python
+            description: "A lightweight, powerful framework for multi-agent workflows"
+          - item:
+            name: Semantic Kernel (Microsoft)
+            homepage_url: https://github.com/microsoft/semantic-kernel
+            logo: semantic-kernel-microsoft.png
+            repo_url: https://github.com/microsoft/semantic-kernel
+            description: "Integrate cutting-edge LLM technology quickly and easily into your apps"
+          - item:
+            name: SmolAgents
+            homepage_url: https://github.com/huggingface/smolagents
+            logo: smolagents.png
+            repo_url: https://github.com/huggingface/smolagents
+            description: "smolagents: a barebones library for agents that think in code."
+          - item:
+            name: PydanticAI
+            homepage_url: https://github.com/pydantic/pydantic-ai
+            logo: pydanticai.png
+            repo_url: https://github.com/pydantic/pydantic-ai
+            description: "AI Agent Framework, the Pydantic way"
+          - item:
+            name: Mastra
+            homepage_url: https://github.com/mastra-ai/mastra
+            logo: mastra.png
+            repo_url: https://github.com/mastra-ai/mastra
+            description: "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack."
+          - item:
+            name: CAMEL
+            homepage_url: https://github.com/camel-ai/camel
+            logo: camel.png
+            repo_url: https://github.com/camel-ai/camel
+            description: "CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents."
+          - item:
+            name: OWL
+            homepage_url: https://github.com/camel-ai/owl
+            logo: owl.png
+            repo_url: https://github.com/camel-ai/owl
+            description: "OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation"
+          - item:
+            name: Google Agent Development Kit
+            homepage_url: https://github.com/google/adk-python
+            logo: google-agent-development-kit.png
+            repo_url: https://github.com/google/adk-python
+            description: "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+          - item:
+            name: goose
+            homepage_url: https://goose-docs.ai/
+            logo: goose.png
+            repo_url: https://github.com/aaif-goose/goose
+            description: "An open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM."
+            project: member
+          - item:
+            name: MetaGPT
+            homepage_url: https://github.com/FoundationAgents/MetaGPT
+            logo: metagpt.png
+            repo_url: https://github.com/FoundationAgents/MetaGPT
+            description: "The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming"
+          - item:
+            name: Temporal
+            homepage_url: https://github.com/temporalio/temporal
+            logo: temporal.png
+            repo_url: https://github.com/temporalio/temporal
+            description: ""
+          - item:
+            name: Prefect
+            homepage_url: https://github.com/PrefectHQ/prefect
+            logo: prefect.png
+            repo_url: https://github.com/PrefectHQ/prefect
+            description: "Prefect is a workflow orchestration framework for building resilient data pipelines in Python."
+          - item:
+            name: AutoGPT
+            homepage_url: https://github.com/Significant-Gravitas/AutoGPT
+            logo: autogpt.png
+            repo_url: https://github.com/Significant-Gravitas/AutoGPT
+            description: "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+          - item:
+            name: RAGFlow
+            homepage_url: https://github.com/infiniflow/ragflow
+            logo: ragflow.png
+            repo_url: https://github.com/infiniflow/ragflow
+            description: "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+          - item:
+            name: AgentScope
+            homepage_url: https://github.com/agentscope-ai/agentscope
+            logo: agentscope.png
+            repo_url: https://github.com/agentscope-ai/agentscope
+            description: "Build and run agents you can see, understand and trust."
+          - item:
+            name: DeerFlow
+            homepage_url: https://github.com/bytedance/deer-flow
+            logo: deerflow.png
+            repo_url: https://github.com/bytedance/deer-flow
+            description: "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours."
+      - name: Developer Tooling & SDKs
+        items:
+          - item:
+            name: Ollama
+            homepage_url: https://github.com/ollama/ollama
+            logo: ollama.png
+            repo_url: https://github.com/ollama/ollama
+            description: ""
+          - item:
+            name: Hugging Face Transformers
+            homepage_url: https://github.com/huggingface/transformers
+            logo: hugging-face-transformers.png
+            repo_url: https://github.com/huggingface/transformers
+            description: "Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
+          - item:
+            name: Continue.dev
+            homepage_url: https://github.com/continuedev/continue
+            logo: continue-dev.png
+            repo_url: https://github.com/continuedev/continue
+            description: ""
+          - item:
+            name: Semantic Router
+            homepage_url: https://github.com/aurelio-labs/semantic-router
+            logo: semantic-router.png
+            repo_url: https://github.com/aurelio-labs/semantic-router
+            description: "Superfast AI decision making and intelligent processing of multi-modal data."
+          - item:
+            name: TaskWeaver
+            homepage_url: https://github.com/microsoft/TaskWeaver
+            logo: taskweaver.png
+            repo_url: https://github.com/microsoft/TaskWeaver
+            description: "The first \"code-first\" agent framework for seamlessly planning and executing data analytics tasks."
+          - item:
+            name: pi-mono
+            homepage_url: https://github.com/badlogic/pi-mono
+            logo: pi-mono.png
+            repo_url: https://github.com/badlogic/pi-mono
+            description: "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods"
+          - item:
+            name: Agent Skills
+            homepage_url: https://github.com/agentskills/agentskills
+            logo: agent-skills.png
+            repo_url: https://github.com/agentskills/agentskills
+            description: ""
+  - name: Agent Capabilities
+    subcategories:
+      - name: Computer Use & Browser Agents
+        items:
+          - item:
+            name: Browser-Use
+            homepage_url: https://github.com/browser-use/browser-use
+            logo: browser-use.png
+            repo_url: https://github.com/browser-use/browser-use
+            description: "Make websites accessible for AI agents. Automate tasks online with ease."
+          - item:
+            name: Firecrawl
+            homepage_url: https://github.com/firecrawl/firecrawl
+            logo: firecrawl.png
+            repo_url: https://github.com/firecrawl/firecrawl
+            description: "The API to search, scrape, and interact with the web for AI"
+          - item:
+            name: Crawl4AI
+            homepage_url: https://github.com/unclecode/crawl4ai
+            logo: crawl4ai.png
+            repo_url: https://github.com/unclecode/crawl4ai
+            description: "Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper."
+          - item:
+            name: OSWorld Benchmarking
+            homepage_url: https://github.com/xlang-ai/OSWorld
+            logo: osworld-benchmarking.png
+            repo_url: https://github.com/xlang-ai/OSWorld
+            description: ""
+          - item:
+            name: Agent S
+            homepage_url: https://github.com/simular-ai/Agent-S
+            logo: agent-s.png
+            repo_url: https://github.com/simular-ai/Agent-S
+            description: "Agent S: an open agentic framework that uses computers like a human"
+          - item:
+            name: E2B Code Interpreter SDK
+            homepage_url: https://github.com/e2b-dev/code-interpreter
+            logo: e2b-code-interpreter-sdk.png
+            repo_url: https://github.com/e2b-dev/code-interpreter
+            description: "Python & JS/TS SDK for running AI-generated code/code interpreting in your AI app"
+          - item:
+            name: OmniParser
+            homepage_url: https://github.com/microsoft/OmniParser
+            logo: omniparser.png
+            repo_url: https://github.com/microsoft/OmniParser
+            description: "A simple screen parsing tool towards pure vision based GUI agent"
+      - name: Tool Use & Integration
+        items:
+          - item:
+            name: Playwright
+            homepage_url: https://github.com/microsoft/playwright
+            logo: playwright.jpg
+            repo_url: https://github.com/microsoft/playwright
+            description: "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API."
+          - item:
+            name: Composio
+            homepage_url: https://github.com/ComposioHQ/composio
+            logo: composio.png
+            repo_url: https://github.com/ComposioHQ/composio
+            description: "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action."
+          - item:
+            name: Instructor
+            homepage_url: https://github.com/567-labs/instructor
+            logo: instructor.png
+            repo_url: https://github.com/567-labs/instructor
+            description: "structured outputs for llms"
+          - item:
+            name: Haystack
+            homepage_url: https://github.com/deepset-ai/haystack
+            logo: haystack.png
+            repo_url: https://github.com/deepset-ai/haystack
+            description: "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems."
+          - item:
+            name: LiteLLM
+            homepage_url: https://github.com/BerriAI/litellm
+            logo: litellm.png
+            repo_url: https://github.com/BerriAI/litellm
+            description: "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]"
+          - item:
+            name: Pathway
+            homepage_url: https://github.com/pathwaycom/pathway
+            logo: pathway.png
+            repo_url: https://github.com/pathwaycom/pathway
+            description: "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG."
+      - name: Memory & Retrieval
+        items:
+          - item:
+            name: Letta
+            homepage_url: https://github.com/letta-ai/letta
+            logo: letta.png
+            repo_url: https://github.com/letta-ai/letta
+            description: "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time."
+          - item:
+            name: LlamaIndex
+            homepage_url: https://github.com/run-llama/llama_index
+            logo: llamaindex.png
+            repo_url: https://github.com/run-llama/llama_index
+            description: "LlamaIndex is the leading document agent and OCR platform"
+          - item:
+            name: GraphRAG
+            homepage_url: https://github.com/microsoft/graphrag
+            logo: graphrag.png
+            repo_url: https://github.com/microsoft/graphrag
+            description: "A modular graph-based Retrieval-Augmented Generation (RAG) system"
+          - item:
+            name: LightRAG
+            homepage_url: https://github.com/HKUDS/LightRAG
+            logo: lightrag.png
+            repo_url: https://github.com/HKUDS/LightRAG
+            description: ""
+          - item:
+            name: DSPy
+            homepage_url: https://github.com/stanfordnlp/dspy
+            logo: dspy.png
+            repo_url: https://github.com/stanfordnlp/dspy
+            description: "DSPy: The framework for programming—not prompting—language models"
+          - item:
+            name: Ragas
+            homepage_url: https://github.com/vibrantlabsai/ragas
+            logo: ragas.png
+            repo_url: https://github.com/vibrantlabsai/ragas
+            description: "Supercharge Your LLM Application Evaluations"
+          - item:
+            name: Weaviate
+            homepage_url: https://github.com/weaviate/weaviate
+            logo: weaviate.png
+            repo_url: https://github.com/weaviate/weaviate
+            description: "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​."
+          - item:
+            name: Qdrant
+            homepage_url: https://github.com/qdrant/qdrant
+            logo: qdrant.png
+            repo_url: https://github.com/qdrant/qdrant
+            description: "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI."
+          - item:
+            name: Chroma
+            homepage_url: https://github.com/chroma-core/chroma
+            logo: chroma.png
+            repo_url: https://github.com/chroma-core/chroma
+            description: "Data infrastructure for AI"
+          - item:
+            name: Milvus
+            homepage_url: https://github.com/milvus-io/milvus
+            logo: milvus.png
+            repo_url: https://github.com/milvus-io/milvus
+            description: "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+      - name: Voice & Multimodal Agents
+        items:
+          - item:
+            name: Livekit Agents
+            homepage_url: https://github.com/livekit/agents
+            logo: livekit-agents.png
+            repo_url: https://github.com/livekit/agents
+            description: "A framework for building realtime voice AI agents"
+          - item:
+            name: Pipecat
+            homepage_url: https://github.com/pipecat-ai/pipecat
+            logo: pipecat.png
+            repo_url: https://github.com/pipecat-ai/pipecat
+            description: "Open Source framework for voice and multimodal conversational AI"
+  - name: Agent Applications
+    subcategories:
+      - name: Personal & Coding Agents
+        items:
+          - item:
+            name: OpenClaw
+            homepage_url: https://github.com/openclaw/openclaw
+            logo: openclaw.png
+            repo_url: https://github.com/openclaw/openclaw
+            description: "Your own personal AI assistant. Any OS. Any Platform. The lobster way."
+          - item:
+            name: OpenCode
+            homepage_url: https://github.com/anomalyco/opencode
+            logo: opencode.png
+            repo_url: https://github.com/anomalyco/opencode
+            description: "The open source coding agent."
+          - item:
+            name: OpenHands
+            homepage_url: https://github.com/OpenHands/OpenHands
+            logo: openhands.png
+            repo_url: https://github.com/OpenHands/OpenHands
+            description: "OpenHands: AI-Driven Development"
+          - item:
+            name: Cline
+            homepage_url: https://github.com/cline/cline
+            logo: cline.png
+            repo_url: https://github.com/cline/cline
+            description: "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way."
+          - item:
+            name: Aider
+            homepage_url: https://github.com/Aider-AI/aider
+            logo: aider.jpg
+            repo_url: https://github.com/Aider-AI/aider
+            description: "aider is AI pair programming in your terminal"
+          - item:
+            name: Kilo
+            homepage_url: https://github.com/Kilo-Org/kilocode
+            logo: kilo.png
+            repo_url: https://github.com/Kilo-Org/kilocode
+            description: "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent."
+          - item:
+            name: Hermes
+            homepage_url: https://github.com/NousResearch/hermes-agent
+            logo: hermes.png
+            repo_url: https://github.com/NousResearch/hermes-agent
+            description: "The agent that grows with you"
+          - item:
+            name: SWE-agent
+            homepage_url: https://github.com/SWE-agent/SWE-agent
+            logo: swe-agent.png
+            repo_url: https://github.com/SWE-agent/SWE-agent
+            description: "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]"
+          - item:
+            name: Agentless
+            homepage_url: https://github.com/OpenAutoCoder/Agentless
+            logo: agentless.png
+            repo_url: https://github.com/OpenAutoCoder/Agentless
+            description: "Agentless:  an agentless approach to automatically solve software development problems"
+          - item:
+            name: GPT Researcher
+            homepage_url: https://github.com/assafelovic/gpt-researcher
+            logo: gpt-researcher.png
+            repo_url: https://github.com/assafelovic/gpt-researcher
+            description: "An autonomous agent that conducts deep research on any data using any LLM providers"
+          - item:
+            name: Open Interpreter
+            homepage_url: https://github.com/OpenInterpreter/open-interpreter
+            logo: open-interpreter.jpg
+            repo_url: https://github.com/OpenInterpreter/open-interpreter
+            description: "A natural language interface for computers"
+          - item:
+            name: Sweep
+            homepage_url: https://github.com/sweepai/sweep
+            logo: sweep.png
+            repo_url: https://github.com/sweepai/sweep
+            description: "Sweep: AI coding assistant for JetBrains"
+      - name: Research & Vertical Agents
+        items:
+          - item:
+            name: PR-Agent
+            homepage_url: https://github.com/The-PR-Agent/pr-agent
+            logo: pr-agent.png
+            repo_url: https://github.com/The-PR-Agent/pr-agent
+            description: "PR Agent: The Original Open-Source PR Reviewer."
+          - item:
+            name: Tavily Python SDK
+            homepage_url: https://github.com/tavily-ai/tavily-python
+            logo: tavily-python-sdk.png
+            repo_url: https://github.com/tavily-ai/tavily-python
+            description: "The Tavily Python SDK allows for easy interaction with the Tavily API, offering the full range of our search, extract, crawl, map, and research functionalities directly from your Python programs. Easily integrate smart search, content extraction, and research capabilities into your applications, harnessing Tavily's powerful features."
+  - name: Operations & Safety
+    subcategories:
+      - name: Evaluation & Observability
+        items:
+          - item:
+            name: Langfuse
+            homepage_url: https://github.com/langfuse/langfuse
+            logo: langfuse.png
+            repo_url: https://github.com/langfuse/langfuse
+            description: "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. YC W23"
+          - item:
+            name: Phoenix
+            homepage_url: https://github.com/Arize-ai/phoenix
+            logo: phoenix.jpg
+            repo_url: https://github.com/Arize-ai/phoenix
+            description: "AI Observability & Evaluation"
+          - item:
+            name: Opik
+            homepage_url: https://github.com/comet-ml/opik
+            logo: opik.png
+            repo_url: https://github.com/comet-ml/opik
+            description: "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards."
+          - item:
+            name: DeepEval
+            homepage_url: https://github.com/confident-ai/deepeval
+            logo: deepeval.png
+            repo_url: https://github.com/confident-ai/deepeval
+            description: "The LLM Evaluation Framework"
+          - item:
+            name: SWE-bench
+            homepage_url: https://github.com/SWE-bench/SWE-bench
+            logo: swe-bench.png
+            repo_url: https://github.com/SWE-bench/SWE-bench
+            description: "SWE-bench: Can Language Models Resolve Real-world Github Issues?"
+          - item:
+            name: Inspect AI Evals
+            homepage_url: https://github.com/UKGovernmentBEIS/inspect_evals
+            logo: inspect-ai-evals.png
+            repo_url: https://github.com/UKGovernmentBEIS/inspect_evals
+            description: "Collection of evals for Inspect AI"
+          - item:
+            name: PromptFoo
+            homepage_url: https://github.com/promptfoo/promptfoo
+            logo: promptfoo.png
+            repo_url: https://github.com/promptfoo/promptfoo
+            description: "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic."
+      - name: Safety & Guardrails
+        items:
+          - item:
+            name: LlamaGuard
+            homepage_url: https://huggingface.co/meta-llama
+            logo: llamaguard.svg
+            repo_url: https://huggingface.co/meta-llama
+            description: ""
+          - item:
+            name: NeMo Guardrails
+            homepage_url: https://github.com/NVIDIA/NeMo-Guardrails
+            logo: nemo-guardrails.png
+            repo_url: https://github.com/NVIDIA/NeMo-Guardrails
+            description: "NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems."
+          - item:
+            name: Guardrails AI
+            homepage_url: https://github.com/guardrails-ai/guardrails
+            logo: guardrails-ai.png
+            repo_url: https://github.com/guardrails-ai/guardrails
+            description: "Adding guardrails to large language models."
+          - item:
+            name: PyRIT
+            homepage_url: https://github.com/microsoft/PyRIT
+            logo: pyrit.jpg
+            repo_url: https://github.com/microsoft/PyRIT
+            description: "The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems."
+          - item:
+            name: Garak
+            homepage_url: https://github.com/NVIDIA/garak
+            logo: garak.png
+            repo_url: https://github.com/NVIDIA/garak
+            description: "the LLM vulnerability scanner"

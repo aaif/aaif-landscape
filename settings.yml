@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+
+foundation: AAIF
+url: https://aaif.landscape2.io
+
+members_category: Members
+
+groups:
+  - name: Projects
+    alias: projects
+    categories:
+      - Foundations & Protocols
+      - Frameworks & Infrastructure
+      - Agent Capabilities
+      - Agent Applications
+      - Operations & Safety
+  - name: Members
+    alias: members
+    categories:
+      - Members
+
+categories:
+  - name: Members
+    subcategories:
+      - Platinum
+      - Gold
+      - Silver
+      - Associate
+  - name: Foundations & Protocols
+    subcategories:
+      - Protocols & Standards
+      - Agent-Optimized Models
+      - MCP Infrastructure
+  - name: Frameworks & Infrastructure
+    subcategories:
+      - Agent Infrastructure
+      - Orchestration & Multi-Agent
+      - Developer Tooling & SDKs
+  - name: Agent Capabilities
+    subcategories:
+      - Computer Use & Browser Agents
+      - Tool Use & Integration
+      - Memory & Retrieval
+      - Voice & Multimodal Agents
+  - name: Agent Applications
+    subcategories:
+      - Personal & Coding Agents
+      - Research & Vertical Agents
+  - name: Operations & Safety
+    subcategories:
+      - Evaluation & Observability
+      - Safety & Guardrails
+
+featured_items:
+  - field: maturity
+    options:
+      - value: member
+        order: 1
+        label: AAIF Member Project
+    exclude:
+      groups:
+        - Members
