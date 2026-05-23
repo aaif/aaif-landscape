@@ -16,3 +16,13 @@ jobs:
         with:
           target_kind: data
           target_path: ./landscape.yml
+
+  validate-settings:
+    runs-on: ubuntu-latest
+    name: "Validate settings.yml file"
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cncf/landscape2-validate-action@v2
+        with:
+          target_kind: settings
+          target_path: ./settings.yml
