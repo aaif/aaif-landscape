@@ -1087,6 +1087,12 @@ categories:
       - name: Orchestration & Multi-Agent
         items:
           - item:
+            name: Astron Agent
+            homepage_url: https://astron.ai/
+            logo: iflytek-astron-agent.svg
+            repo_url: https://github.com/iflytek/astron-agent
+            description: "Enterprise-grade, commercial-friendly agentic workflow platform for building production-ready intelligent agents with workflow orchestration, tool integration, RPA automation, and team collaboration."
+          - item:
             name: LangGraph
             homepage_url: https://github.com/langchain-ai/langgraph
             logo: langgraph.png
@@ -1240,6 +1246,12 @@ categories:
             repo_url: https://github.com/aurelio-labs/semantic-router
             description: "Superfast AI decision making and intelligent processing of multi-modal data."
           - item:
+            name: SkillHub
+            homepage_url: https://github.com/iflytek/skillhub
+            logo: iflytek-skillhub.svg
+            repo_url: https://github.com/iflytek/skillhub
+            description: "Enterprise-grade, self-hosted skill registry for publishing, discovering, and governing reusable agent skill packages across teams and private infrastructure."
+          - item:
             name: TaskWeaver
             homepage_url: https://github.com/microsoft/TaskWeaver
             logo: taskweaver.png
@@ -1261,6 +1273,12 @@ categories:
     subcategories:
       - name: Computer Use & Browser Agents
         items:
+          - item:
+            name: AstronRPA
+            homepage_url: https://www.iflyrpa.com/
+            logo: iflytek-astron-rpa.svg
+            repo_url: https://github.com/iflytek/astron-rpa
+            description: "Enterprise-grade RPA desktop application for low-code automation of Windows desktop software and web pages, with native integration for AI agent workflows and MCP services."
           - item:
             name: Browser-Use
             homepage_url: https://github.com/browser-use/browser-use
