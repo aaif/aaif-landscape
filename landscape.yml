@@ -1246,12 +1246,6 @@ categories:
             repo_url: https://github.com/aurelio-labs/semantic-router
             description: "Superfast AI decision making and intelligent processing of multi-modal data."
           - item:
-            name: SkillHub
-            homepage_url: https://github.com/iflytek/skillhub
-            logo: iflytek-skillhub.svg
-            repo_url: https://github.com/iflytek/skillhub
-            description: "Enterprise-grade, self-hosted skill registry for publishing, discovering, and governing reusable agent skill packages across teams and private infrastructure."
-          - item:
             name: TaskWeaver
             homepage_url: https://github.com/microsoft/TaskWeaver
             logo: taskweaver.png
@@ -1353,6 +1347,12 @@ categories:
             logo: litellm.png
             repo_url: https://github.com/BerriAI/litellm
             description: "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]"
+          - item:
+            name: SkillHub
+            homepage_url: https://skill.xfyun.cn/
+            logo: iflytek-skillhub.svg
+            repo_url: https://github.com/iflytek/skillhub
+            description: "Enterprise-grade, self-hosted skill registry for publishing, discovering, and governing reusable agent skill packages across teams and private infrastructure."
           - item:
             name: Pathway
             homepage_url: https://github.com/pathwaycom/pathway
