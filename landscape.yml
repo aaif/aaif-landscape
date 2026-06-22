@@ -870,7 +870,7 @@ categories:
             logo: model-context-protocol.png
             repo_url: https://github.com/modelcontextprotocol/modelcontextprotocol
             description: "MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems."
-            project: member
+            maturity: member
           - item:
             name: Agent2Agent (A2A) Protocol
             homepage_url: https://github.com/a2aproject/A2A
@@ -883,7 +883,7 @@ categories:
             logo: agents-md.png
             repo_url: https://github.com/agentsmd/agents.md
             description: "A simple, open format for guiding coding agents."
-            project: member
+            maturity: member
           - item:
             name: AGNTCY
             homepage_url: https://github.com/agntcy/acp-spec
@@ -1164,7 +1164,7 @@ categories:
             logo: goose.png
             repo_url: https://github.com/aaif-goose/goose
             description: "An open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM."
-            project: member
+            maturity: member
           - item:
             name: MetaGPT
             homepage_url: https://github.com/FoundationAgents/MetaGPT
