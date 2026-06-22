@@ -1111,6 +1111,13 @@ categories:
             repo_url: https://github.com/microsoft/autogen
             description: "A programming framework for agentic AI"
           - item:
+            name: agentgateway
+            homepage_url: https://agentgateway.dev/
+            logo: agentgateway.svg
+            repo_url: https://github.com/agentgateway/agentgateway
+            description: "A gateway for agentic AI that unifies MCP, agent-to-agent communication, LLM inference, APIs, and services under one control plane"
+            maturity: member
+          - item:
             name: OpenAI Agents SDK
             homepage_url: https://github.com/openai/openai-agents-python
             logo: openai-agents-sdk.png
