@@ -1118,6 +1118,13 @@ categories:
             description: "A gateway for agentic AI that unifies MCP, agent-to-agent communication, LLM inference, APIs, and services under one control plane"
             maturity: member
           - item:
+            name: Higress
+            homepage_url: https://higress.io/
+            logo: higress.png
+            repo_url: https://github.com/alibaba/higress
+            description: "Higress is a cloud-native, production-grade AI Gateway built on Envoy and Istio. It provides a unified control plane for LLM API management, MCP (Model Context Protocol) server hosting and registry, and AI agent traffic governance. Higress is a CNCF sandbox project."
+            crunchbase: https://www.crunchbase.com/organization/alibaba-group
+          - item:
             name: OpenAI Agents SDK
             homepage_url: https://github.com/openai/openai-agents-python
             logo: openai-agents-sdk.png
