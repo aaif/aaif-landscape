@@ -1400,6 +1400,18 @@ categories:
             repo_url: https://github.com/weaviate/weaviate
             description: "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​."
           - item:
+            name: PowerContext
+            homepage_url: https://powercontext.oceanbase.io/
+            logo: powercontext.svg
+            repo_url: https://github.com/oceanbase/powercontext
+            description: >-
+              PowerContext is an open-source memory and context management layer
+              for AI agents, providing persistent memory, context retrieval, and
+              task handoffs across conversations, agents, and human collaborators.
+            extra:
+              documentation_url: https://powercontext.oceanbase.io/en/docs/
+              discord_url: https://discord.com/invite/74cF8vbNEs
+          - item:
             name: Qdrant
             homepage_url: https://github.com/qdrant/qdrant
             logo: qdrant.png
