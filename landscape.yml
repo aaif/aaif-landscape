@@ -1358,17 +1358,17 @@ categories:
       - name: Memory & Retrieval
         items:
           - item:
-            name: Letta
-            homepage_url: https://github.com/letta-ai/letta
-            logo: letta.png
-            repo_url: https://github.com/letta-ai/letta
-            description: "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time."
+            name: Chroma
+            homepage_url: https://github.com/chroma-core/chroma
+            logo: chroma.png
+            repo_url: https://github.com/chroma-core/chroma
+            description: "Data infrastructure for AI"
           - item:
-            name: LlamaIndex
-            homepage_url: https://github.com/run-llama/llama_index
-            logo: llamaindex.png
-            repo_url: https://github.com/run-llama/llama_index
-            description: "LlamaIndex is the leading document agent and OCR platform"
+            name: DSPy
+            homepage_url: https://github.com/stanfordnlp/dspy
+            logo: dspy.png
+            repo_url: https://github.com/stanfordnlp/dspy
+            description: "DSPy: The framework for programming—not prompting—language models"
           - item:
             name: GraphRAG
             homepage_url: https://github.com/microsoft/graphrag
@@ -1376,17 +1376,47 @@ categories:
             repo_url: https://github.com/microsoft/graphrag
             description: "A modular graph-based Retrieval-Augmented Generation (RAG) system"
           - item:
+            name: Letta
+            homepage_url: https://github.com/letta-ai/letta
+            logo: letta.png
+            repo_url: https://github.com/letta-ai/letta
+            description: "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time."
+          - item:
             name: LightRAG
             homepage_url: https://github.com/HKUDS/LightRAG
             logo: lightrag.png
             repo_url: https://github.com/HKUDS/LightRAG
             description: ""
           - item:
-            name: DSPy
-            homepage_url: https://github.com/stanfordnlp/dspy
-            logo: dspy.png
-            repo_url: https://github.com/stanfordnlp/dspy
-            description: "DSPy: The framework for programming—not prompting—language models"
+            name: LlamaIndex
+            homepage_url: https://github.com/run-llama/llama_index
+            logo: llamaindex.png
+            repo_url: https://github.com/run-llama/llama_index
+            description: "LlamaIndex is the leading document agent and OCR platform"
+          - item:
+            name: Milvus
+            homepage_url: https://github.com/milvus-io/milvus
+            logo: milvus.png
+            repo_url: https://github.com/milvus-io/milvus
+            description: "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+          - item:
+            name: PowerContext
+            homepage_url: https://powercontext.oceanbase.io/
+            logo: powercontext.svg
+            repo_url: https://github.com/oceanbase/powercontext
+            description: >-
+              PowerContext is an open-source memory and context management layer
+              for AI agents, providing persistent memory, context retrieval, and
+              task handoffs across conversations, agents, and human collaborators.
+            extra:
+              documentation_url: https://powercontext.oceanbase.io/en/docs/
+              discord_url: https://discord.com/invite/74cF8vbNEs
+          - item:
+            name: Qdrant
+            homepage_url: https://github.com/qdrant/qdrant
+            logo: qdrant.png
+            repo_url: https://github.com/qdrant/qdrant
+            description: "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI."
           - item:
             name: Ragas
             homepage_url: https://github.com/vibrantlabsai/ragas
@@ -1399,24 +1429,6 @@ categories:
             logo: weaviate.png
             repo_url: https://github.com/weaviate/weaviate
             description: "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​."
-          - item:
-            name: Qdrant
-            homepage_url: https://github.com/qdrant/qdrant
-            logo: qdrant.png
-            repo_url: https://github.com/qdrant/qdrant
-            description: "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI."
-          - item:
-            name: Chroma
-            homepage_url: https://github.com/chroma-core/chroma
-            logo: chroma.png
-            repo_url: https://github.com/chroma-core/chroma
-            description: "Data infrastructure for AI"
-          - item:
-            name: Milvus
-            homepage_url: https://github.com/milvus-io/milvus
-            logo: milvus.png
-            repo_url: https://github.com/milvus-io/milvus
-            description: "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
       - name: Voice & Multimodal Agents
         items:
           - item:
