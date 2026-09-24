@@ -860,6 +860,10 @@ categories:
             homepage_url: https://www.psu.edu/
             logo: pennsylvania-state-university.svg
             crunchbase: https://www.crunchbase.com/organization/the-pennsylvania-state-university
+          - item:
+            name: UnGovr
+            homepage_url: https://ungovr.org/
+            logo: ungovr.svg
   - name: Foundations & Protocols
     subcategories:
       - name: Protocols & Standards
