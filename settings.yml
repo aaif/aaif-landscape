@@ -9,11 +9,7 @@ groups:
   - name: Projects
     alias: projects
     categories:
-      - Foundations & Protocols
-      - Frameworks & Infrastructure
-      - Agent Capabilities
-      - Agent Applications
-      - Operations & Safety
+      - Agentic AI Momentum Watchlist
   - name: Members
     alias: members
     categories:
@@ -26,30 +22,13 @@ categories:
       - Gold
       - Silver
       - Associate
-  - name: Foundations & Protocols
+  - name: Agentic AI Momentum Watchlist
     subcategories:
-      - Protocols & Standards
-      - Agent-Optimized Models
-      - MCP Infrastructure
-  - name: Frameworks & Infrastructure
-    subcategories:
-      - Agent Infrastructure
-      - Orchestration & Multi-Agent
-      - Developer Tooling & SDKs
-  - name: Agent Capabilities
-    subcategories:
-      - Computer Use & Browser Agents
-      - Tool Use & Integration
-      - Memory & Retrieval
-      - Voice & Multimodal Agents
-  - name: Agent Applications
-    subcategories:
-      - Personal & Coding Agents
-      - Research & Vertical Agents
-  - name: Operations & Safety
-    subcategories:
-      - Evaluation & Observability
-      - Safety & Guardrails
+      - Gateway & Control Plane
+      - Agentic Runtime
+      - Protocols & Interfaces
+      - Data & Knowledge
+      - Agentic Development
 
 featured_items:
   - field: maturity
