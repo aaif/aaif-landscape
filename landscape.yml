@@ -1289,6 +1289,12 @@ categories:
             repo_url: https://github.com/open-webui/open-webui
             description: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
           - item:
+            name: Ouroboros
+            homepage_url: https://ouroboros-agent.ai/
+            logo: ouroboros.svg
+            repo_url: https://github.com/razzant/ouroboros
+            description: "An open-source agent with persistent memory that works on external projects, coordinates specialist agents, and evolves its own implementation through reviewed changes."
+          - item:
             name: OWL
             homepage_url: https://github.com/camel-ai/owl
             logo: owl.png
