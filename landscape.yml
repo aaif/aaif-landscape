@@ -968,6 +968,35 @@ categories:
             repo_url: https://github.com/NVIDIA-NeMo/Guardrails
             description: "NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems."
           - item:
+            name: NGINX Gateway Fabric
+            homepage_url: https://docs.nginx.com/nginx-gateway-fabric/
+            logo: nginx.svg
+            repo_url: https://github.com/nginx/nginx-gateway-fabric
+            description: "A Kubernetes Gateway API implementation using NGINX as the data plane, routing MCP traffic to MCP servers and serving as an inference gateway for self-hosted generative AI models through the Gateway API Inference Extension."
+            twitter: https://x.com/nginxorg
+            crunchbase: https://www.crunchbase.com/organization/f5-networks
+            extra:
+              blog_url: https://blog.nginx.org/
+              docker_url: https://github.com/nginx/nginx-gateway-fabric/pkgs/container/nginx-gateway-fabric
+              github_discussions_url: https://github.com/nginx/nginx-gateway-fabric/discussions
+              linkedin_url: https://www.linkedin.com/company/nginx/
+              package_manager_url: https://artifacthub.io/packages/helm/nginx-gateway-fabric/nginx-gateway-fabric
+              youtube_url: https://www.youtube.com/@nginx_official
+              other_links:
+                - name: Community Forum
+                  url: https://community.nginx.org/c/projects/nginx-gateway-fabric/25
+                - name: Gateway API Inference Extension Guide
+                  url: https://docs.nginx.com/nginx-gateway-fabric/how-to/gateway-api-inference-extension/
+              summary_personas: Platform Engineers, Cluster Operators, Application Developers, AI/ML Platform Engineers
+              summary_tags: kubernetes, gateway api, gateway api inference extension, inference gateway, llm inference, mcp, model context protocol, load balancing, reverse proxy, api gateway, tls, grpc, tcp/udp proxy
+              summary_use_case: >-
+                NGINX Gateway Fabric turns Gateway API resources (Gateway, HTTPRoute, GRPCRoute, TLSRoute, TCPRoute, UDPRoute) into NGINX configuration
+                to route L4 and L7 traffic into Kubernetes. With the Gateway API Inference Extension, NGINX Gateway Fabric sends requests for self-hosted
+                generative AI models to an InferencePool, where the llm-d Router endpoint picker chooses the model server pod for each request. Standard
+                HTTPRoutes also route Model Context Protocol (MCP) traffic over Streamable HTTP from AI agents to MCP servers in the cluster.
+              summary_release_rate: Minor release about every two months, with patch releases in between.
+              summary_integrations: Kubernetes, Gateway API, Gateway API Inference Extension, Model Context Protocol (MCP), llm-d, vLLM, Helm, Prometheus, OpenTelemetry, cert-manager
+          - item:
             name: OGX
             homepage_url: https://ogx-ai.github.io/
             logo: ogx.png
