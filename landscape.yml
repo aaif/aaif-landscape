@@ -1675,6 +1675,12 @@ categories:
             repo_url: https://github.com/Aider-AI/aider
             description: "aider is AI pair programming in your terminal"
           - item:
+            name: Bub
+            homepage_url: https://bub.build/
+            logo: bub.svg
+            repo_url: https://github.com/bubbuild/bub
+            description: "A tiny agent runtime, composable with plugins."
+          - item:
             name: Cline
             homepage_url: https://github.com/cline/cline
             logo: cline.png
